@@ -15,6 +15,7 @@ export default function App() {
 			neutral: 0,
 			bad: 0,
 	});
+	console.log(feedback);
 
 	useEffect(() => {
 		const savedFeedback = localStorage.getItem(LS_KEY);
